@@ -1,11 +1,44 @@
+
+/* основной цвет NAVY BLUE color: #2E2F42;*/
+/* цвет контактов,текста SLATE color: #434455; */
+/* цвет оглавления White color: #FFFFFF;
+/*цвет футера CLOUD -CLOUD color: #F4F4FD; */
+/* цвет background CLOUD background: #F4F4FD;
+/* цвет в портфолио кнопок Iris color: #4D5AE5;*/
+
 :root [
+    --header-color: #2E2F42;
     --background-color: #FFFFFF;
+    --text-navy-color: #2E2F42;
+    --text-slate-color: #434455;
+    --text-cloud-color: #F4F4FD;
+    --text-iris-color: #4D5AE5;
+    --text-ocean-color: #404BBF;
 ]
 
 body {
+    font-family: 'Roboto', sans-serif; 
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
+./header-item {
+    /* Body Medium */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;}
+
 ul {
     list-style: none;
 }
@@ -34,12 +67,9 @@ a { color:#434455; }
     color: #2E2F42;;
 }
 
-/* основной цвет NAVY BLUE color: #2E2F42;*/
-/* цвет контактов,текста SLATE color: #434455; */
-/* цвет оглавления White color: #FFFFFF;
-/*цвет футера CLOUD -CLOUD color: #F4F4FD; */
-/* цвет background CLOUD background: #F4F4FD;
-/* цвет в портфолио кнопок Iris color: #4D5AE5;
+/* Button*/
+.button {
 
+}
 
 
