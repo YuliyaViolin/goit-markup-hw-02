@@ -85,6 +85,12 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+/* hero title*/
+.hero-title {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
 .list {list-style: none;}
 
 .team-list {background-color: #F4F4FD;}
