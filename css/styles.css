@@ -78,6 +78,13 @@ letter-sacing: 0.02em;}
 .link {text-decoration: none;}
 
 /*---Body*/
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #434455;
+    background-color: var(--background-color);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
 .list {list-style: none;}
 
 .team-list {background-color: #F4F4FD;}
