@@ -81,7 +81,7 @@ letter-sacing: 0.02em;}
 body {
     font-family: 'Roboto', sans-serif; 
     color: #434455;
-    background-color: var(--background-color);
+    background-color: #FFFFFF;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
