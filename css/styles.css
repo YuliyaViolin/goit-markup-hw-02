@@ -140,6 +140,17 @@ cursor: pointer;
     text-transform: capitalize;
     color: var(--header-color);
 }
+.section-title {
+    background-color: var(--cloud-footer-color);
+}
+
+.cloud-list {
+    background-color: var(--hero-bkgrd-color);
+}
+
+.cloud {
+    background: var(--cloud-footer-color);
+}
 
 .text-team {
 font-size: 16px;
@@ -175,12 +186,7 @@ color: var(--text-color);
     text-transform: capitalize;
     color: var(--header-color);
 }
-.cloud {
-    background: var(--cloud-footer-color);
-}
-.cloud-list {
-    background-color: var(--hero-bkgrd-color);
-}
+
 .section-list {
     font-weight: 500;
     font-size: 20px;
@@ -206,6 +212,9 @@ text-align: center;
 
 
 /*----Footer----*/
+.footer-logotype {
+    color: var(--cloud-footer-color);
+}
 .foot {
 background-color: var(--header-color);
 color: #F4F4FD;
