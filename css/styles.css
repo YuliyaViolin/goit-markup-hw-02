@@ -101,6 +101,7 @@ cursor: pointer;
     background-color: var(--hero-button-link-color);
 }
 
+
 /*----Portfolio----*/
 .button-portfolio {
     font-family: var(--primary-font);
@@ -120,8 +121,9 @@ cursor: pointer;
 }
 
 .sectio-title {
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -140,13 +142,16 @@ cursor: pointer;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 .text-description {
-    color: #434455;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 .team {
 text-align: center;
