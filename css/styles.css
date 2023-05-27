@@ -215,16 +215,9 @@ text-align: center;
 .footer-logotype {
     color: var(--cloud-footer-color);
 }
-.foot {
-background-color: var(--header-color);
-color: #F4F4FD;
-font-family: 'Roboto';
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
 
 .footer-logo {
-font-family: var(--primary-font);
+font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -233,6 +226,13 @@ text-transform: uppercase;
 color: var(--link-color);
 }
 
+.foot {
+background-color: var(--header-color);
+color: #F4F4FD;
+font-family: 'Roboto';
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 .foot {
 color:#F4F4FD;
 background-color: var(--header-color);
