@@ -82,7 +82,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    color: var(--hero-bkgrd-color);
+    color: #FFFFFF;
 }
 
 .button {
@@ -125,26 +125,26 @@ cursor: pointer;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--header-color);
+    color: #2e2f42;
 }
 .cloud {
-    background: var(--cloud-footer-color);
+    background: #f4f4fd;
 }
 .cloud-list {
-    background-color: var(--hero-bkgrd-color);
+    background-color: #FFFFFF;
 }
 .section-list {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--header-color);
+    color: #2e2f42;
 }
 
 .text-description {
-    color: var(--text-color);
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -182,5 +182,5 @@ text-align: center;
 }
 
 .footer-logotype {
-    color:#F4F4FD
+    color:#F4F4FD;
 }
