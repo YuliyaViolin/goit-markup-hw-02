@@ -122,14 +122,7 @@ cursor: pointer;
 
 /*----Section-2----*/
 
-.sectio-title {
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--header-color);
-}
+
 /*---Section-3----*/
 
 .sectio-title {
