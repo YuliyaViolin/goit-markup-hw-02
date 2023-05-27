@@ -34,7 +34,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--link-color);
+    color: #4d5ae5;
 }
 .logo-header {
     color: #2e2f42;
@@ -50,7 +50,8 @@ body {
 
 .sate-nav .link:hover,
 .sate-nav .link:focus {
-    color: var(--hero-button-link-color);
+    color: #404bbf;
+
 }
 
 .sate-nav {
@@ -67,7 +68,7 @@ body {
 }
 .address .link:hover,
 .address .link:focus {
-    color: var(--hero-button-link-color);
+    color: #404bbf;
 }
 .address-link {
     line-height: 1.5;
@@ -88,7 +89,7 @@ body {
 }
 
 .button {
-font-family: var(--primary-font);
+font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -100,7 +101,7 @@ cursor: pointer;
 
 .button:hover,
 .button:focus {
-    background-color: var(--hero-button-link-color);
+    background-color: #404bbf;
 }
 /*----Section-1----*/
 
@@ -155,12 +156,12 @@ color: #434455;
 
 /*----Portfolio----*/
 .button-portfolio {
-    font-family: var(--primary-font);
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--link-color);
+    color: #4d5ae5;
     background-color: #f4f4fd;
     cursor: pointer;
 }
@@ -168,7 +169,7 @@ color: #434455;
 .button-portfolio:hover,
 .button-portfolio:focus {
     color: #FFFFFF;
-    background-color: var(--hero-button-link-color);
+    background-color: #404bbf;
 }
 
 .sectio-title {
@@ -212,31 +213,33 @@ text-align: center;
 
 /*----Footer----*/
 .foot {
-    background-color: #2E2F42;
-    color: #F4F4FD;
-    font-family: 'Roboto';
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+background-color: #2E2F42;
+color: #F4F4FD;
+font-family: 'Roboto';
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .footer-logo {
-    font-family: 'Raleway',sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
 }
 
+
 .foot {
-    color: var(--text-cloud-color);
-    background-color: #2E2F42;
-    list-style: none;
+color:#F4F4FD;
+background-color: #2E2F42;
+list-style: none;
+
 }
 
 .footer-logotype {
-    color:#F4F4FD;
+color: #F4F4FD;
 }
