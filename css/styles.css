@@ -14,8 +14,8 @@
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--hero-bkgrd-color);
-    color: var(--text-color);
+    background-color: #FFFFFF;
+    color: #434455;
 }
 
 /*----header----*/
@@ -26,12 +26,9 @@ body {
 .link {
     text-decoration: none;
 }
-.team-list {
-    background-color: var(--cloud-footer-color);
-}
 
 .logo {
-    font-family: var(--secondary-font);
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -40,24 +37,13 @@ body {
     color: var(--link-color);
 }
 .logo-header {
-    color: var(--header-color);
+    color: #2e2f42;
 }
 
 .logo-footer{
-    color: var(--cloud-footer-color);
+    color: #f4f4fd;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 .link {
     text-decoration: none;
 }
@@ -71,13 +57,13 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-color);
+    color: #2e2f42;
 }
 
 
 .address {
     font-style: normal;
-    color: var(--text-color)
+    color: #434455;
 }
 .address .link:hover,
 .address .link:focus {
@@ -86,7 +72,7 @@ body {
 .address-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: #434455;
 }
 /*----Hero----*/
 
@@ -105,7 +91,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.05;
 letter-spacing: 0.04em;
-color: var(--hero-bkgrd-color);
+color: #FFFFFF;
 background-color: var(--link-color);
 cursor: pointer;
 }
@@ -123,13 +109,13 @@ cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--link-color);
-    background-color: var(--cloud-footer-color);
+    background-color: #f4f4fd;
     cursor: pointer;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-    color: var(--hero-bkgrd-color);
+    color: #FFFFFF;
     background-color: var(--hero-button-link-color);
 }
 
