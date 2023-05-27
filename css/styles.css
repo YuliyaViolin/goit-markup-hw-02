@@ -113,10 +113,10 @@ cursor: pointer;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--header-color);
 }
 .section-list {
-    background-color: var(--header-color);
+    background-color: var(--hero-bkgrd-color);
 }
 
 
@@ -128,7 +128,7 @@ cursor: pointer;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--header-color);
 }
 /*---Section-3----*/
 
