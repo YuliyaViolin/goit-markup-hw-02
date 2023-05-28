@@ -23,10 +23,6 @@ body {
     list-style: none;
 }
 
-.link {
-    text-decoration: none;
-}
-
 .logo {
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -81,9 +77,10 @@ body {
 }
 .hero-title {
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
+    line-height: 1.07;
     background-color: #2E2F42;
     color: var(--hero-bkgrd-color);
 }
@@ -146,11 +143,11 @@ cursor: pointer;
     color: var(--header-color);
 }
 
-.text {
+.text-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-}
+} 
 .team {
 text-align: center;
 }
