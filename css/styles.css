@@ -9,7 +9,7 @@
     --secondary-font: 'Raleway',sans-serif;
 }
 
-/*-----Body-----*/
+/**-----Body-----*/
 
 body {
     font-family: var(--primary-font);
@@ -17,7 +17,7 @@ body {
     color: var(--text-color);
 }
 
-/*----header----*/
+/**----header----*/
 .list {
     list-style: none;
 }
@@ -37,6 +37,19 @@ body {
 
 .logo-footer{
     color: var(--cloud-footer-color);
+}
+
+.visually-hidden {
+position:absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .link {
@@ -69,11 +82,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-/*----Hero----*/
+/**----Hero----*/
 
 .hero {
     background: var(--header-color);
 }
+
 .hero-title {
     font-size: 56px;
     line-height: 60px;
@@ -100,7 +114,7 @@ cursor: pointer;
     background-color: var(--hero-button-link-color);
 }
 
-/*----Portfolio----*/
+/**----Portfolio----*/
 .button-portfolio {
     font-family: var(--primary-font);
     font-weight: 500;
@@ -130,6 +144,7 @@ cursor: pointer;
 .cloud {
     background: var(--cloud-footer-color);
 }
+
 .cloud-list {
     background-color: var(--hero-bkgrd-color);
 }
@@ -147,9 +162,11 @@ cursor: pointer;
     letter-spacing: 0.02em;
     color: var(--text-color);
 } 
+
 .team {
     text-align: center;
 }
+
 .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -157,7 +174,7 @@ cursor: pointer;
 
 
 
-/*----Footer----*/
+/**----Footer----*/
 .footer-logotype {
     color: var(--cloud-footer-color);
 }
@@ -179,11 +196,11 @@ font-family: 'Roboto';
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
 .foot {
 color:#F4F4FD;
 background-color: var(--header-color);
 list-style: none;
-
 }
 
 .footer-text {
